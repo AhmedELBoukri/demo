@@ -1,180 +1,31 @@
 {
-    "MT_REAL_A1" : [{
-
-        "keyIndicator": "MT_REAL_A1",
-
-
-        "totalValue": "20966932",
-
-        "values":  [
-            {
-                "monthId": "202001",
-                "value": "88399"
-            },
-
-            {
-                "monthId": "202002",
-                "value": "123318,57"
-            },
-
-            {
-                "monthId": "202003",
-                "value": "19574,18"
-            },
-
-            {   
-                "monthId": "202004",
-                "value": "125095,93"
-            },
-
-            {
-                "monthId": "202005",
-                "value": "279390,18"
-            },
-
-            {
-                "monthId": "202006",
-                "value": "158029,08"
-            },
-
-            {
-                "monthId": "202007",
-                "value": "336301,99"
-            },
-
-            {
-                "monthId": "202008",
-                "value": "37890"
-            },
-
-            {
-                "monthId": "202009",
-                "value": "145698,43"
-            },
-
-            {
-                "monthId": "202010",
-                "value": "135996"
-            },
-
-            {
-                "monthId": "202011",
-                "value": "120397,09"
-            },
-
-            {
-                "monthId": "202012",
-                "value": "350431,06"
-            }
-        ]
-    }],
-
-    "MT_REAL_A" : [{
-
-        "keyIndicator": "MT_REAL_A",
-
-
-        "totalValue": "30966932",
-
-        "values":  [
-            {
-                "monthId": "202001",
-                "value": "98399"
-            },
-
-            {
-                "monthId": "202002",
-                "value": "223318,57"
-            },
-
-            {
-                "monthId": "202003",
-                "value": "25745,18"
-            },
-
-            {   
-                "monthId": "202004",
-                "value": "225095,93"
-            },
-
-            {
-                "monthId": "202005",
-                "value": "279390,18"
-            },
-
-            {
-                "monthId": "202006",
-                "value": "258029,08"
-            },
-
-            {
-                "monthId": "202007",
-                "value": "436301,99"
-            },
-
-            {
-                "monthId": "202008",
-                "value": "47890"
-            },
-
-            {
-                "monthId": "202009",
-                "value": "245698,43"
-            },
-
-            {
-                "monthId": "202010",
-                "value": "235996"
-            },
-
-            {
-                "monthId": "202011",
-                "value": "220397,09"
-            },
-
-            {
-                "monthId": "202012",
-                "value": "450431,06"
-            }
-        ]
-    }],
-
-    "status": [{
-        "lastUpdate" : "17/12/2020 15:01:45"}],
-
-    "MT_REAL_M1":[
-            {
-                "kpi": "MT_REAL_A1",
-        
-                "value": "44414",       
-        
-                "values":  [
-                    {
-                        "month-id": "202012",
-                        "value": "44414"
-                    }
-                ]
-            }
-        ],
-
-        "MT_REAL_M":[
-            {
-                "kpi": "MT_REAL_A",
-        
-                "value": "54414",       
-        
-                "values":  [
-                    {
-                        "month-id": "202012",
-                        "value": "54414"
-                    }
-                ]
-            }
-        ]
-
-        
-
-        
-
-
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
